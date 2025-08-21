@@ -27,8 +27,9 @@ app.get('/', async (req, res) => {
         const SUCCESS = token ? true : false;
         const TOKEN = SUCCESS ? token : '';
         const IFRAME_URL = tyradsSDK.iframeUrl(token)
+        const IFRAME_PREMIUM_URL = tyradsSDK.iframePremiumWidget(token);
 
-        res.json({ success: SUCCESS, token: TOKEN, iframeUrl: IFRAME_URL });
+        res.json({ success: SUCCESS, token: TOKEN, iframeUrl: IFRAME_URL, iframePremiumUrl: IFRAME_PREMIUM_URL });
     } catch (error) {
         console.error('Error during authentication:', error);
         res.status(500).json({ error: error.message });

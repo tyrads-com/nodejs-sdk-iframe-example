@@ -40,8 +40,9 @@ app.get('/', async (req, res) => {
         const SUCCESS = data?.data?.token ? true : false;
         const TOKEN = SUCCESS ? data.data.token : '';
         const IFRAME_URL = `https://sdk.tyrads.com?token=${encodeURIComponent(TOKEN)}`;
+        const IFRAME_PREMIUM_URL = `https://sdk.tyrads.com/widget?token=${encodeURIComponent(TOKEN)}`;
 
-        res.json({ success: SUCCESS, token: TOKEN, iframeUrl: IFRAME_URL });
+        res.json({ success: SUCCESS, token: TOKEN, iframeUrl: IFRAME_URL, iframePremiumUrl: IFRAME_PREMIUM_URL });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
