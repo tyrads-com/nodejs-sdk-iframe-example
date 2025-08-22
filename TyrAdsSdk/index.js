@@ -10,8 +10,8 @@ app.use(cors());
 const API_KEY = "YOUR_API_KEY";                 // Replace with your actual API key
 const API_SECRET = "YOUR_API_SECRET";           // Replace with your actual API secret
 const LANGUAGE = "en";
-const AGE = 18;                                 // Replace with actual age
-const GENDER = 1;                               // 1 for male, 2 for female
+const AGE = null;                               // (Optional) Replace with actual age
+const GENDER = null;                            // (Optional) 1 for male, 2 for female
 const PUBLISHER_USER_ID = "PUBLISHER_USER_ID";  // Replace with actual publisher user ID
 
 app.get('/', async (req, res) => {

@@ -3,9 +3,9 @@
 
 
 "@tyrads.com/tyrads-sdk-iframe@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@tyrads.com/tyrads-sdk-iframe/-/tyrads-sdk-iframe-0.2.1.tgz"
-  integrity sha512-Glv8z1Oe3Z0LKnM2j5znmiEuJt2H7ZLWzJL8EXYAi+yk3m1a3QWcE+TaNqyMzhB7yA9Tt4vyN0dcGk6tF0iE8g==
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/@tyrads.com/tyrads-sdk-iframe/-/tyrads-sdk-iframe-0.2.2.tgz"
+  integrity sha512-YEFHHkUmBq7dC8ND0ftzYOAUFT03KE12PWrFxPIHfedcRGC21839HowcfwtfPh/yGEH467SxWBbB4B/PnaydeA==
   dependencies:
     axios "^1.7.7"
 
