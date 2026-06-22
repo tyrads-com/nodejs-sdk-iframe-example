@@ -9,7 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tyrads.com/tyrads-sdk-iframe": "^0.3.0",
+    "@tyrads.com/tyrads-sdk-iframe": "^0.3.2",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
